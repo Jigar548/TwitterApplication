@@ -1,0 +1,19 @@
+* {
+	
+}
+
+#tweets,
+#followers {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+#tweets .active,
+#followers .active,
+#tweets .active *,
+#followers .active * {
+	background: red;
+	font-weight: bold;
+}
+
